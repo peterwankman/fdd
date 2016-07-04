@@ -23,6 +23,7 @@ static void usage(const char *argv) {
 	printf("\tOtherwise:\n");
 	printf("\t\t%s -s <spent amount (in cents)>\n", argv);
 	printf("\t\t%s -t\tDisplays a summary\n", argv);
+	printf("\t\t%s -v\tDisplays english sentences\n", argv);
 }
 
 static int days_in_febuary(int year) {
