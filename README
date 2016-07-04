@@ -1,0 +1,6 @@
+To change your currency from default EUR:
+	make USERFLAGS='-DCURRENCY=\"PESO\"'
+
+ti change the location of the data file:
+	make USERFLAGS='-DDATA_FILE=\"/lib/systemd/systemd\"'
+	Be sure the directory exists, though.
